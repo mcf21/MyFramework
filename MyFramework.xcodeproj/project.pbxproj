@@ -10,6 +10,17 @@
 		FE0D73F9254066A000A6978B /* MyFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE0D73EF254066A000A6978B /* MyFramework.framework */; };
 		FE0D73FE254066A000A6978B /* MyFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D73FD254066A000A6978B /* MyFrameworkTests.swift */; };
 		FE0D7400254066A000A6978B /* MyFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = FE0D73F2254066A000A6978B /* MyFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0D7416254067C600A6978B /* BasicNarrativeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D740B254067C600A6978B /* BasicNarrativeViewModel.swift */; };
+		FE0D7417254067C600A6978B /* ScrollingSubtitlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D740C254067C600A6978B /* ScrollingSubtitlesViewModel.swift */; };
+		FE0D7418254067C600A6978B /* Subtitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D740D254067C600A6978B /* Subtitle.swift */; };
+		FE0D7419254067C600A6978B /* BasicNarrativeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0D740E254067C600A6978B /* BasicNarrativeView.xib */; };
+		FE0D741A254067C600A6978B /* SubtitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D740F254067C600A6978B /* SubtitleCollectionViewCell.swift */; };
+		FE0D741B254067C600A6978B /* BasicNarrativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7410254067C600A6978B /* BasicNarrativeView.swift */; };
+		FE0D741C254067C600A6978B /* SubtitleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE0D7411254067C600A6978B /* SubtitleCollectionViewCell.xib */; };
+		FE0D741D254067C600A6978B /* String+SubtitleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7412254067C600A6978B /* String+SubtitleBlock.swift */; };
+		FE0D741E254067C600A6978B /* ScrollingSubtitlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7413254067C600A6978B /* ScrollingSubtitlesViewController.swift */; };
+		FE0D741F254067C600A6978B /* SubtitleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7414254067C600A6978B /* SubtitleBlock.swift */; };
+		FE0D7420254067C600A6978B /* UIView+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0D7415254067C600A6978B /* UIView+Bundle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +40,17 @@
 		FE0D73F8254066A000A6978B /* MyFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0D73FD254066A000A6978B /* MyFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFrameworkTests.swift; sourceTree = "<group>"; };
 		FE0D73FF254066A000A6978B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE0D740B254067C600A6978B /* BasicNarrativeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicNarrativeViewModel.swift; sourceTree = "<group>"; };
+		FE0D740C254067C600A6978B /* ScrollingSubtitlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSubtitlesViewModel.swift; sourceTree = "<group>"; };
+		FE0D740D254067C600A6978B /* Subtitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtitle.swift; sourceTree = "<group>"; };
+		FE0D740E254067C600A6978B /* BasicNarrativeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasicNarrativeView.xib; sourceTree = "<group>"; };
+		FE0D740F254067C600A6978B /* SubtitleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FE0D7410254067C600A6978B /* BasicNarrativeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicNarrativeView.swift; sourceTree = "<group>"; };
+		FE0D7411254067C600A6978B /* SubtitleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubtitleCollectionViewCell.xib; sourceTree = "<group>"; };
+		FE0D7412254067C600A6978B /* String+SubtitleBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+SubtitleBlock.swift"; sourceTree = "<group>"; };
+		FE0D7413254067C600A6978B /* ScrollingSubtitlesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingSubtitlesViewController.swift; sourceTree = "<group>"; };
+		FE0D7414254067C600A6978B /* SubtitleBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleBlock.swift; sourceTree = "<group>"; };
+		FE0D7415254067C600A6978B /* UIView+Bundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Bundle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +93,17 @@
 		FE0D73F1254066A000A6978B /* MyFramework */ = {
 			isa = PBXGroup;
 			children = (
+				FE0D7410254067C600A6978B /* BasicNarrativeView.swift */,
+				FE0D740E254067C600A6978B /* BasicNarrativeView.xib */,
+				FE0D740B254067C600A6978B /* BasicNarrativeViewModel.swift */,
+				FE0D7413254067C600A6978B /* ScrollingSubtitlesViewController.swift */,
+				FE0D740C254067C600A6978B /* ScrollingSubtitlesViewModel.swift */,
+				FE0D7412254067C600A6978B /* String+SubtitleBlock.swift */,
+				FE0D740D254067C600A6978B /* Subtitle.swift */,
+				FE0D7414254067C600A6978B /* SubtitleBlock.swift */,
+				FE0D740F254067C600A6978B /* SubtitleCollectionViewCell.swift */,
+				FE0D7411254067C600A6978B /* SubtitleCollectionViewCell.xib */,
+				FE0D7415254067C600A6978B /* UIView+Bundle.swift */,
 				FE0D73F2254066A000A6978B /* MyFramework.h */,
 				FE0D73F3254066A000A6978B /* Info.plist */,
 			);
@@ -147,6 +180,7 @@
 				TargetAttributes = {
 					FE0D73EE254066A000A6978B = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 					FE0D73F7254066A000A6978B = {
 						CreatedOnToolsVersion = 12.0.1;
@@ -177,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0D741C254067C600A6978B /* SubtitleCollectionViewCell.xib in Resources */,
+				FE0D7419254067C600A6978B /* BasicNarrativeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0D741D254067C600A6978B /* String+SubtitleBlock.swift in Sources */,
+				FE0D741A254067C600A6978B /* SubtitleCollectionViewCell.swift in Sources */,
+				FE0D7418254067C600A6978B /* Subtitle.swift in Sources */,
+				FE0D7417254067C600A6978B /* ScrollingSubtitlesViewModel.swift in Sources */,
+				FE0D741E254067C600A6978B /* ScrollingSubtitlesViewController.swift in Sources */,
+				FE0D7420254067C600A6978B /* UIView+Bundle.swift in Sources */,
+				FE0D741F254067C600A6978B /* SubtitleBlock.swift in Sources */,
+				FE0D741B254067C600A6978B /* BasicNarrativeView.swift in Sources */,
+				FE0D7416254067C600A6978B /* BasicNarrativeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +386,7 @@
 		FE0D7404254066A000A6978B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
@@ -357,6 +403,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = net.artprocessors.MyFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,6 +412,7 @@
 		FE0D7405254066A000A6978B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
@@ -389,6 +437,7 @@
 		FE0D7407254066A000A6978B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
 				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
@@ -407,6 +456,7 @@
 		FE0D7408254066A000A6978B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S43V4RQJ55;
 				INFOPLIST_FILE = MyFrameworkTests/Info.plist;
